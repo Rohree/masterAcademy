@@ -3,6 +3,7 @@ import Particles from "./blocks/Backgrounds/Particles/Particles";
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Footer from './components/Footer';
+import BookNowButton from './components/BookNowButton';
 
 function App() {  
   return (
@@ -28,7 +29,7 @@ function App() {
         <Hero />
 
         {/* Spotlight Cards */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8 px-4">
+  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4 place-items-center">
           <SpotlightCard 
             className="md:w-96 rounded-lg bg-white/10 backdrop-blur-lg border border-white/20"
             spotlightColor="rgba(0, 229, 255, 0.2)"
@@ -58,9 +59,41 @@ function App() {
                 <li>Passionate about teaching and mentorship</li>
                 <li>Focused on real results and progress</li>
               </ul>
-              <button className="mt-2 px-6 py-2 bg-indigo-500 text-white rounded-lg font-semibold shadow hover:bg-indigo-600 transition">
-                Book now
-              </button>
+              <BookNowButton />
+            </div>
+          </SpotlightCard>
+          <SpotlightCard 
+            className="md:w-96 rounded-lg bg-white/10 backdrop-blur-lg border border-white/20"
+            spotlightColor="rgba(0, 229, 255, 0.2)"
+          >
+            <div className="p-6 text-lg">
+              <h2 className="text-2xl font-bold mb-2">HOW IT WORKS</h2>
+              <ul className="list-none space-y-2 mb-10">
+                <li>Click on "Book a Now" button</li>
+                <li>Specify your information and needs</li>
+                <li>We’ll match you with a tutor.</li>
+                <li>You learn, grow, and succeed.</li>
+              </ul>
+              
+              <BookNowButton />
+             
+            </div>
+          </SpotlightCard>
+            <SpotlightCard 
+            className="md:w-96 rounded-lg bg-white/10 backdrop-blur-lg border border-white/20"
+            spotlightColor="rgba(0, 229, 255, 0.2)"
+          >
+            <div className="p-6 text-lg">
+              <h2 className="text-2xl font-bold mb-2">WHY US</h2>
+              <ul className="list-none space-y-2 mb-10">
+                <li>Elite, subject-matter experts</li>
+                <li>Tailored one-on-one tutoring</li>
+                <li>Proven results with measurable progress</li>
+                <li>Premium service with a personal touch</li>
+              </ul>
+              
+              <BookNowButton />
+             
             </div>
           </SpotlightCard>
         </div>  
