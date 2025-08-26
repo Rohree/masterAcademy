@@ -1,4 +1,4 @@
-import logo from '../assets/logo.png';
+import logo from '../assets/image01.jpg';
 import UserInfoModal from './UserInfoModal';
 import { useState } from 'react';
 
