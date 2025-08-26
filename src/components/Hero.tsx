@@ -1,9 +1,6 @@
 import CurvedLoop from "../blocks/TextAnimations/CurvedLoop/CurvedLoop";
 export default function Hero() {
 
-const handleAnimationComplete = () => {
-console.log('All letters have animated!');
-};
   return (
     <section className="flex flex-col items-center justify-center min-h-[60vh] py-4 px-4 text-center mt-36 md:mt-8">
       <CurvedLoop 
