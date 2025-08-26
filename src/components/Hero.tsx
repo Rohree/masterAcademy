@@ -14,7 +14,7 @@ export default function Hero() {
       <p className="mt-10">
        EXCELLENCE IN EVERY SESSION
       </p>
-       <p className="mt-10 md:w-180">
+       <p className="mt-10 md:w-180 font-bold text-2xl">
        We serve learners from Grade 8 to 12, offering personalized 1-on-1 tutoring and interactive group sessions to help you boost marks, build confidence, and master your subjects.
       </p>
     </section>
